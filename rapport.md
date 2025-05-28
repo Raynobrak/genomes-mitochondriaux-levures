@@ -42,6 +42,8 @@ Une voie métabolique est l'ensemble des réactions chimiques impliquées dans l
 
 Dans notre cas, il s'agira d'analyser les voies métaboliques permetttant de digérer le glucose pour en tirer de l'énergie (ATP).
 
+todo : détailler un peu plus
+
 ## Source, références, bibliographie
 - Levures et fromage : https://www.actalia.eu/les-levures-dans-les-differents-types-de-fromage/
 - Kimchi : https://fr.wikipedia.org/wiki/Kimchi
