@@ -42,15 +42,40 @@ Dans notre cas, il s'agira d'analyser les voies métaboliques permetttant de dig
 
 Sous certaines conditions, les levures peuvent métaboliser le sucre de manière anaérobique même en présence d'oxygène. Cet effet est connu sous le nom d'effet "***Crabtree***". Lorsque l'organisme se trouve dans un environnement avec une forte teneur en glucose, la respiration (métabolisation aérobique) serait inhibée et la fermentation (anaérobie) prendra le dessus.
 
-### Voies métaboliques
+### Voies métaboliques de digestion du glucose
 
-Les voies métaboliques impliquées dans la digestion du glucose sont les suivantes :
-- Glycolyse (voie d'Embden-Meyerhof-Parnas) -> sert à assimiler le glucose et à le convertir en énergie
-- Cycle de Krebs (aussi appelé cycle des acides tricarboxyliques) -> TODO
+Cette section décrit les différentes voies métaboliques impliquées dans la digestion du glucose ainsi que leur rôle.
+
+#### Glycolyse
+La Glycolyse (ou voie d'Embden-Meyerhof-Parnas) est la première étape de la digestion du glucose. Ici, les molécules de glucose sont "cassées" en deux et elles sont converties en pyruvate. Un petit peu d'ATP est déjà produit durant ce processus. Cette voie métabolique est commune à la respiration et à la fermentation. Pour que la glycolyse puisse s'effectuer, la cellule a besoin de glucose et de NAD+. Le NAD+ peut-être synthétisé par la cellule (à partir de vitamine B3) ou lors de la fermentation, en recyclant le NADH en trop (voir ci-dessous).
+
+#### Fermentation
+En cas de fermentation, donc en l'absence d'oxygène, la voie métabolique utilisée est celle de la **fermentation alcoolique**. La fermentation alcoolique, au travers de multiples réactions chimiques et de l'utilisation de plusieurs enzymes différentes, prend le pyruvate issu de la glycolyse et produit 2 choses :
+1. De l'alcool (éthanol)
+2. **Du NAD+**
+
+À proprement parler, la fermentation ne permet pas de créer plus d'énergie. Cela dit, elle produit du NAD+, ce qui permet de faire en sorte que la glycolyse s'effectue à nouveau. C'est avantageux car le NAD+ nécessite habituellement d'être synthétisé à partir de la vitamine B3 et est donc relativement difficile à obtenir. La fermentation permet donc de sauter cette étape et d'effectuer la glycolyse en continu.
+
+#### Respiration
+En présence d'oxygène, 3 voies métaboliques supplémentaires doivent être traversées afin de produire de l'ATP :
+1. Décarboxylation du pyruvate -> Prépare le pyruvate obtenu à partir de la glycolyse pour le cycle de Krebs
+2. Cycle de Krebs -> produit du NADH à partir du pyruvate
+3. Phosphorylation oxydative -> Convertit le NADH en ATP
+
+#### Cycle de Krebs
+Cycle de Krebs (aussi appelé cycle des acides tricarboxyliques) 
 - voie des pentoses phosphates (ou voie de Warburg-Dickens-Horecker) -> TODO
 - Phosphorylation oxydative -> permet la conversion de l'ADP en ATP
 
-todo : comparer gènes trouvés avec voies métaboliques -> recherche
+### Comparaison génétique de S. Pompe et S. Cerevisiae
+
+![alt text](genes.png)
+
+Les gènes atp6, atp8, atp9, cox1, cox2, cox3, rps3 sont communs aux deux espèces et sont relatifs à la dernière voie métabolique de digestion du glucose; la phosphorylation oxydative. C'est cette dernière réaction qui permet de convertir le NADH en ATP.
+
+Le gène CYTB, spécifique à S. Pompe
+
+todo continuer ici
 
 ## Source, références, bibliographie
 - Levures et fromage : https://www.actalia.eu/les-levures-dans-les-differents-types-de-fromage/
@@ -59,3 +84,7 @@ todo : comparer gènes trouvés avec voies métaboliques -> recherche
 - aérobie et anaérobie des levures : https://www.svt-a-feuillade.fr/pages/doc_spe_Term/1485796993.
 - Utilisation de levure pour synthétiser de la psylocybine : https://www.sciencedirect.com/science/article/pii/S109671761930401X?via%3Dihub
 - Métabolisme des levures : https://chem.libretexts.org/Bookshelves/Biological_Chemistry/Fermentation_in_Food_Chemistry_(Graham)/01%3A_Modules/1.10%3A_Yeast_Metabolism#:~:text=The%20metabolic%20pathways%20utilized%20by,phosphate%20pathway%2C%20and%20oxidative%20phosphorylation.
+- Glycolyse : https://www.kegg.jp/entry/sce00010
+- Glycolyse : https://www.ncbi.nlm.nih.gov/books/NBK482303/
+- Cycle de Krebs : https://www.genome.jp/dbget-bin/www_bget?pathway+hsa00020
+- atp6, atp8, atp9 : https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0078105
