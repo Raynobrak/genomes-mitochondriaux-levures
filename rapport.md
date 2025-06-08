@@ -73,9 +73,14 @@ Cycle de Krebs (aussi appelé cycle des acides tricarboxyliques)
 
 Les gènes atp6, atp8, atp9, cox1, cox2, cox3, rps3 sont communs aux deux espèces et sont relatifs à la dernière voie métabolique de digestion du glucose; la phosphorylation oxydative. C'est cette dernière réaction qui permet de convertir le NADH en ATP.
 
-Le gène CYTB, spécifique à S. Pompe
+Les gènes CYTB et COB respectivement spécifiques à S. Cerevisiae et S. Pombe servent tout deux à coder la protéine **apocytochrome b** qui un rôle important dans la respiration.
 
-todo continuer ici
+Les gènes COB-I1 COX1-I1b et COX1-I2b servent à (lire deux dernières sources)
+
+TODO
+TODO
+TODO
+
 
 ## Source, références, bibliographie
 - Levures et fromage : https://www.actalia.eu/les-levures-dans-les-differents-types-de-fromage/
@@ -88,3 +93,5 @@ todo continuer ici
 - Glycolyse : https://www.ncbi.nlm.nih.gov/books/NBK482303/
 - Cycle de Krebs : https://www.genome.jp/dbget-bin/www_bget?pathway+hsa00020
 - atp6, atp8, atp9 : https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0078105
+- https://www.uniprot.org/uniprotkb/P05501/entry
+- https://pubmed.ncbi.nlm.nih.gov/12187383/
