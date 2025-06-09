@@ -306,14 +306,6 @@ La forme globale est **hautement conservée**, garantissant le bon positionnemen
 
 ## Protéine cox2
 
-Voici la fiche structurée complète pour la **protéine COX2**, dans le même format que les précédentes :
-
----
-
-## Protéine cox2
-
----
-
 ### 1. Alignement global
 
 | **Critère**          | **Valeur**             | **Interprétation**                                                              |
@@ -374,8 +366,6 @@ Voici la fiche structurée complète pour la **protéine COX3**, dans le même f
 ---
 
 ## Protéine cox3
-
----
 
 ### 1. Alignement global
 

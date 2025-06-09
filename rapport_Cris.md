@@ -137,7 +137,7 @@ Les deux descriptions sont **strictement identiques**, confirmant une **fonction
 
 ### 3. Comparaison de la structure 3D
 
-| *S. cerevisiae | *S. pombe* |
+| *S. cerevisiae* | *S. pombe* |
 | -------------- | ---------- |
 | ![ATP9\_cerevisiae](./figures/atp9/cerevisiae.png) | ![ATP9\_pombe](./figures/atp9/pombe.png) |
 
@@ -223,14 +223,6 @@ La forme globale est **hautement conservée**, garantissant le bon positionnemen
 
 ## Protéine cox2
 
-Voici la fiche structurée complète pour la **protéine COX2**, dans le même format que les précédentes :
-
----
-
-## Protéine cox2
-
----
-
 ### 1. Alignement global
 
 | **Critère**          | **Valeur**             | **Interprétation**                                                              |
@@ -291,8 +283,6 @@ Voici la fiche structurée complète pour la **protéine COX3**, dans le même f
 ---
 
 ## Protéine cox3
-
----
 
 ### 1. Alignement global
 
