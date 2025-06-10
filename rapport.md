@@ -77,16 +77,13 @@ En cas de fermentation, donc en l'absence d'oxygène, la voie métabolique utili
 
 À proprement parler, la fermentation ne permet pas de créer plus d'énergie. Cela dit, elle produit du NAD+, ce qui permet de faire en sorte que la glycolyse s'effectue à nouveau. C'est avantageux car le NAD+ nécessite habituellement d'être synthétisé à partir de la vitamine B3 et est donc relativement difficile à obtenir. La fermentation permet donc de sauter cette étape et d'effectuer la glycolyse en continu.
 
+En d'autres termes, la fermentation ne crée pas d’énergie supplémentaire ; elle recycle le NAD⁺ pour que la glycolyse puisse se répéter indéfiniment sans oxygène. La cellule n’a donc pas besoin de fabriquer du NAD⁺ « neuf » à partir de la vitamine B3 : elle le reconvertit simplement.
+
 #### Respiration
 En présence d'oxygène, 3 voies métaboliques supplémentaires doivent être traversées afin de produire de l'ATP :
 1. Décarboxylation du pyruvate -> Prépare le pyruvate obtenu à partir de la glycolyse pour le cycle de Krebs
 2. Cycle de Krebs -> produit du NADH à partir du pyruvate
 3. Phosphorylation oxydative -> Convertit le NADH en ATP
-
-#### Cycle de Krebs
-Cycle de Krebs (aussi appelé cycle des acides tricarboxyliques) 
-- voie des pentoses phosphates (ou voie de Warburg-Dickens-Horecker) -> TODO
-- Phosphorylation oxydative -> permet la conversion de l'ADP en ATP
 
 ### Comparaison génétique de S. Pompe et S. Cerevisiae
 
@@ -96,11 +93,7 @@ Les gènes atp6, atp8, atp9, cox1, cox2, cox3, rps3 sont communs aux deux espèc
 
 Les gènes CYTB et COB respectivement spécifiques à S. Cerevisiae et S. Pombe servent tout deux à coder la protéine **apocytochrome b** qui un rôle important dans la respiration.
 
-Les gènes COB-I1 COX1-I1b et COX1-I2b servent à (lire deux dernières sources)
-
-TODO
-TODO
-TODO
+Les séquences cob-I1, cox1-I1b et cox1-I2b ne sont pas de vrais gènes : ce sont des introns mobiles. On peut les considérer comme étant « éléments génétiques égoïstes ». Ce sont des petits « parasites » moléculaires qui s'insèrent dans l'ADN et qui se répliquent. Ils ne codent aucune partie de la protéine finale ; toutefois, tant qu’ils s’auto-épissent correctement, ils n’entravent pas la production des protéines Cob ou Cox1 et restent donc globalement neutres pour la cellule.
 
 # Comparaison des protéines mitochondriales homologues entre S. pombe et S. cerevisiae
 
@@ -511,3 +504,4 @@ La **structure centrale ribosomique est préservée**, mais les extrémités év
 - atp6, atp8, atp9 : https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0078105
 - https://www.uniprot.org/uniprotkb/P05501/entry
 - https://pubmed.ncbi.nlm.nih.gov/12187383/
+- introns : https://news.ucsc.edu/2022/11/russ-origins-introns/
