@@ -26,6 +26,27 @@ L'être humain a démontré à de nombreuses reprises son obsession pour la prat
 
 Mis à part les préparations culinaires, les levures sont également utilisées dans la création de produits pharmaceutiques. Le principe repose sur la modification du génome d'une levure pour qu'elle synthétise une molécule spécifique. Par exemple, des biologistes ont réussi à faire en sorte que des levures synthétise de la psylocybine. Une molécule qui serait généralement assez compliquée à obtenir car elle nécessiterait de faire pousser des champignons pour en extraire le principe actif. C'est donc un gain de temps impressionnant.
 
+
+
+## Données
+
+Pour ce projet, l’analyse se concentre donc sur les génomes mitochondriaux des deux espèces de levures, *Schizosaccharomyces pompe* et *Saccharomyces cerevisiae*. Contrairement au génome nucléaire, le génome mitochondrial est un ADN circulaire de plus petite taille, localisé dans les mitochondries, et spécialisé dans le fonctionnement de la respiration cellulaire. Bien que réduit en comparaison du génome principal, il conserve des gènes essentiels au métabolisme énergétique, notamment ceux codant pour des protéines de la chaîne respiratoire, des ARN de transfert (ARNt), et des ARN ribosomiques (ARNr).
+
+Les séquences complètes des génomes mitochondriaux ont été récupérées depuis la base de données GenBank / RefSeq du NCBI. Les identifiants d’accession utilisés sont les suivants :
+
+- *S. cerevisiae* : [NC_027264](https://www.ncbi.nlm.nih.gov/nuccore/NC_027264.1)
+- *S. pombe* : [NC_088682](https://www.ncbi.nlm.nih.gov/nuccore/NC_088682.1/)
+
+Bien que les séquences soient complètes, elles sont marquées comme "provisional RefSeq" (en date du 09.06.2025), ce qui signifie qu'elles n'ont encore été relue et validée manuellement pas les expert du NCBI.  Cela n'affecte pas la qualité de la séquence elle-même, qui est généralement fiable et issue d’une soumission contrôlée, mais cela peut avoir un impact sur l'exactitude ou l'exhaustivité des annotations (comme la position exacte des gènes, la présence d'introns ou de séquences non codantes).
+
+Ces données vont permettre une série d'analyses statistiques, après extraction des gènes codants et de leurs annotations, ainsi que poser des bases pour des analyses de protéines et métaboliques.
+
+
+
+## Analyse statistique descriptive
+
+TODO
+
 ## Analyse des voies métaboliques de digestion du glucose
 
 Dans cette section, nous analyserons les voies métaboliques impliquées dans la digestion du glucose pour les deux levure en question. Nous contextualiserons ensuite les gènes trouvés aux étapes précédentes afin d'identifier leur utilité dans ces voies métaboliques. Plus particulièrement, il faudra comparer les différences entre les voies métaboliques de ces deux levures et les deux modes de métabolisation (aérobie et anaérobie).
