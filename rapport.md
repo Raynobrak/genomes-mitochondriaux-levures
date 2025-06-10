@@ -13,6 +13,8 @@
 - Identifier les voies métaboliques impliquées dans la digestion du glucose en aérobie (respiration) ou anaérobie (fermentation) et placer les gènes mitochondriaux dans ce contexte
 - Présenter les résultats
 
+<div style="page-break-after: always; break-after: page;"></div>
+
 ## Contexte
 
 Les levures à analyser, *S. pombe* et *S. cerevisiae*, aussi connues sous les noms respectifs de "levure de fission" et "levure de boulangerie", sont deux organismes très documentés et souvent examinées en laboratoire pour comprendre le fonctionnement du vivant.
@@ -28,7 +30,7 @@ L'être humain a démontré à de nombreuses reprises son obsession pour la prat
 
 Mis à part les préparations culinaires, les levures sont également utilisées dans la création de produits pharmaceutiques. Le principe repose sur la modification du génome d'une levure pour qu'elle synthétise une molécule spécifique. Par exemple, des biologistes ont réussi à faire en sorte que des levures synthétise de la psylocybine. Une molécule qui serait généralement assez compliquée à obtenir car elle nécessiterait de faire pousser des champignons pour en extraire le principe actif. C'est donc un gain de temps impressionnant.
 
-
+<div style="page-break-after: always; break-after: page;"></div>
 
 ## Données
 
@@ -43,7 +45,7 @@ Bien que les séquences soient complètes, elles sont marquées comme "provision
 
 Ces données vont permettre une série d'analyses statistiques, après extraction des gènes codants et de leurs annotations, ainsi que poser des bases pour des analyses de protéines et métaboliques.
 
-
+<div style="page-break-after: always; break-after: page;"></div>
 
 ## Analyse statistique descriptive
 
@@ -76,6 +78,8 @@ Afin de savoir si ces gènes sont potentiellement identiques, il est utile de co
 Il est facilement visible que certains de ces gènes homologues ont la même taille et possèdent donc des séquences potentiellement identiques. D'autres gènes au contraire ont des tailles différentes, variant de quelques codons voir même passant presque du simple au double comme c'est le cas pour *rsp3* (684pb pour *S. pombe* contre 1164pb pour *S. cerevisiae*). Il y a donc sans doute eu des insertions ou des délétions dans ces gènes, impactant ainsi potentiellement leurs structures. D’autres statistiques pourraient enrichir l’analyse, notamment l'alignement des séquences ou le contenu en GC par CDS. Ces gènes étant comparés de manière plus poussée dans la section dédiée à la comparaison des protéines mitochondriales homologues, ces analyses ne seront pas présentées dans la présente section.
 
 Cette analyse statistique met en évidence des différences nettes entre les génomes mitochondriaux de *S. cerevisiae* et *S. pombe*, tant au niveau de leur taille, de leur composition en bases, que de leur organisation interne. *S. pombe* présente un génome plus court, mais beaucoup plus dense, avec une organisation compacte et optimisée des gènes, tandis que *S. cerevisiae* présente une structure plus vaste, riche en régions non codantes. Ces résultats suggèrent des stratégies évolutives divergentes, l’une orientée vers la compaction génomique, l’autre vers une tolérance accrue à la redondance et potentiellement à la complexité transcriptionnelle. Ces observations forment une base pour les analyses fonctionnelles et comparatives qui suivent.
+
+<div style="page-break-after: always; break-after: page;"></div>
 
 ## Analyse des voies métaboliques de digestion du glucose
 
@@ -519,6 +523,8 @@ La **structure centrale ribosomique est préservée**, mais les extrémités év
 * Les différences pourraient refléter une **divergence dans les fonctions régulatrices ou adaptatives** (par exemple, réponse au stress, réparation)
 
 **Conclusion** : Bien que la séquence de Rps3 soit très divergente entre *S. cerevisiae* et *S. pombe*, les fonctions ribosomiques de base sont probablement conservées. Les régions divergentes suggèrent des **adaptations spécifiques**, notamment pour les **fonctions extraribosomiques**, qui varient selon le contexte cellulaire de chaque espèce.
+
+<div style="page-break-after: always; break-after: page;"></div>
 
 
 ## Sources, références, bibliographie
