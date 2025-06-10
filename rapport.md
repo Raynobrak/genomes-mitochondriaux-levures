@@ -2,6 +2,8 @@
 
 Étudiants : Lucas Charbonnier, Cristhian Ronquillo, Vicky Butty
 
+
+
 ## Sujet choisi
 
 **Projet 5: Génomes Mitochondriaux**
@@ -37,7 +39,7 @@ Les séquences complètes des génomes mitochondriaux ont été récupérées de
 - *S. cerevisiae* : [NC_027264](https://www.ncbi.nlm.nih.gov/nuccore/NC_027264.1)
 - *S. pombe* : [NC_088682](https://www.ncbi.nlm.nih.gov/nuccore/NC_088682.1/)
 
-Bien que les séquences soient complètes, elles sont marquées comme "provisional RefSeq" (en date du 09.06.2025), ce qui signifie qu'elles n'ont encore été relue et validée manuellement pas les expert du NCBI.  Cela n'affecte pas la qualité de la séquence elle-même, qui est généralement fiable et issue d’une soumission contrôlée, mais cela peut avoir un impact sur l'exactitude ou l'exhaustivité des annotations (comme la position exacte des gènes, la présence d'introns ou de séquences non codantes).
+Bien que les séquences soient complètes, elles sont marquées comme "provisional RefSeq" (en date du 09.06.2025), ce qui signifie qu'elles n'ont encore été relue et validée manuellement pas les expert du NCBI. Cela n'affecte pas la qualité de la séquence elle-même, qui est généralement fiable et issue d’une soumission contrôlée, mais cela peut avoir un impact sur l'exactitude ou l'exhaustivité des annotations (comme la position exacte des gènes, la présence d'introns ou de séquences non codantes).
 
 Ces données vont permettre une série d'analyses statistiques, après extraction des gènes codants et de leurs annotations, ainsi que poser des bases pour des analyses de protéines et métaboliques.
 
@@ -51,9 +53,9 @@ En effet, le génome mitochondrial de *S. cerevisiae* possède 78'917 paires de 
 
 La composition en bases diffère aussi fortement : le génome mitochondrial de *S. cerevisiae* est très appauvri en GC avec seulement 16,13 %, tandis que *S. pombe* atteint 30,07 %. Cette statistique est intéressante car la composition en bases peut influencer plusieurs aspects du fonctionnement mitochondrial dont l’efficacité de la transcription et de la traduction. Un taux de GC plus élevé est également associé à une meilleure stabilité thermique de l'ADN et des ARNt. Ces différences reflètent des stratégies évolutives divergentes dans l’adaptation métabolique au niveau mitochondrial, malgré le fait que les deux espèces soient des levures.
 
-Cette différence de taille et de composition pousse à s'intéresser sur la proportion du génome réellement consacrée aux gènes codants, pour mieux comprendre les stratégies d’optimisation ou de redondance mises en place dans le génome mitochondrial de chaque levure. Pour pouvoir évaluer cette répartition génétique, le nombre de gène a été calculé.  *S. pombe* présente 25 gènes d’ARNt, 2 d’ARNr et 11 séquences codantes pour des protéines (CDS), soit un total de 39 gènes. De son côté, *S. cerevisiae* en contient respectivement 24, 2 et 8, totalisant 35 gènes. La majorité des gènes sont localisés sur le brin positif chez les deux espèces, avec une exception chez *S. cerevisiae*, où un gène est situé sur le brin négatif. Ces chiffres bruts ne permettent pas de dire si l'une des levures possède une organisation du génome plus efficace, ne connaissant pas à ce stade les tailles des différents gènes. Il est donc plus pertinent de s’intéresser à la densité génétique, c’est-à-dire à la proportion du génome effectivement utilisée pour coder des gènes. Cette densité atteint 112,76 % chez *S. pombe* contre seulement 33,83 % pour *S. cerevisiae*. Le taux supérieur à 100% chez  *S. pombe*  est dû à un chevauchement de certaines séquences, par exemples avec des introns,  et met en évidence une structuration bien plus compacte de son génome mitochondrial, en contraste avec la proportion importante de régions non codantes chez *S. cerevisiae*, indiquant un rôle possible des régions non codantes.
+Cette différence de taille et de composition pousse à s'intéresser sur la proportion du génome réellement consacrée aux gènes codants, pour mieux comprendre les stratégies d’optimisation ou de redondance mises en place dans le génome mitochondrial de chaque levure. Pour pouvoir évaluer cette répartition génétique, le nombre de gène a été calculé. *S. pombe* présente 25 gènes d’ARNt, 2 d’ARNr et 11 séquences codantes pour des protéines (CDS), soit un total de 39 gènes. De son côté, *S. cerevisiae* en contient respectivement 24, 2 et 8, totalisant 35 gènes. La majorité des gènes sont localisés sur le brin positif chez les deux espèces, avec une exception chez *S. cerevisiae*, où un gène est situé sur le brin négatif. Ces chiffres bruts ne permettent pas de dire si l'une des levures possède une organisation du génome plus efficace, ne connaissant pas à ce stade les tailles des différents gènes. Il est donc plus pertinent de s’intéresser à la densité génétique, c’est-à-dire à la proportion du génome effectivement utilisée pour coder des gènes. Cette densité atteint 112,76 % chez *S. pombe* contre seulement 33,83 % pour *S. cerevisiae*. Le taux supérieur à 100% chez *S. pombe* est dû à un chevauchement de certaines séquences, par exemples avec des introns, et met en évidence une structuration bien plus compacte de son génome mitochondrial, en contraste avec la proportion importante de régions non codantes chez *S. cerevisiae*, indiquant un rôle possible des régions non codantes.
 
-La différence de densité génétique entre nos deux levures et la présence de chevauchements chez  *S. pombe* poussent à représenter graphiquement le positionnement des gènes au sein de leurs génomes afin de mieux les comprendre. Un schéma linéaire a donc été créé pour chaque espèce afin de visualiser les positions relatives des ARNr, ARNt et des CDS. L'affichage a été séparé en deux lignes distinctes afin de permettre une représentation plus lisible des chevauchements présents.
+La différence de densité génétique entre nos deux levures et la présence de chevauchements chez *S. pombe* poussent à représenter graphiquement le positionnement des gènes au sein de leurs génomes afin de mieux les comprendre. Un schéma linéaire a donc été créé pour chaque espèce afin de visualiser les positions relatives des ARNr, ARNt et des CDS. L'affichage a été séparé en deux lignes distinctes afin de permettre une représentation plus lisible des chevauchements présents.
 
 ![s.cerevisiae_repartition_genes](C:\Users\Vicky\Documents\HEIG-VD\10_SP_25\BBC\Laboratoires\genomes-mitochondriaux-levures\figures\s.cerevisiae_repartition_genes.png)
 
@@ -65,9 +67,9 @@ Maintenant que nous avons vu de quelle manière sont répartis les gènes, il es
 
 ![gene_correspondance](C:\Users\Vicky\Documents\HEIG-VD\10_SP_25\BBC\Laboratoires\genomes-mitochondriaux-levures\figures\gene_correspondance.png)
 
-Les deux espèces de levures ont donc sept gènes en commun, participant tous à la respiration mitochondriale. Bien que cela ne soit pas visible au premier coup d'oeil, *S. pombe* et *S. cerevisiae* partagent également un huitième gène commun, le *CytochrOme B*, jouant lui aussi un rôle dans la respiration mitochondriale. Celui-ci apparait sous le nom de *cob*, avec un intron (*cob-I1*), pour *S. pombe* et sous le nom de *cytb* chez  *S. cerevisiae*. La séquence de *S. pombe* a également été annotée comme possédant deux autres introns, liés au gène *cox1* cette fois-ci. Pour rappel, les séquences n'ayant pas été validées par les experts du NCBI, il est possible, bien qu'incertain, qu'il manque des introns dans l'une ou l'autre des espèces.  Ces différences reflètent tout de même des évolutions propres à chaque lignée mitochondriale et soulignent des variations potentielles dans la complexité de l’expression de leurs ARN.
+Les deux espèces de levures ont donc sept gènes en commun, participant tous à la respiration mitochondriale. Bien que cela ne soit pas visible au premier coup d'oeil, *S. pombe* et *S. cerevisiae* partagent également un huitième gène commun, le *CytochrOme B*, jouant lui aussi un rôle dans la respiration mitochondriale. Celui-ci apparait sous le nom de *cob*, avec un intron (*cob-I1*), pour *S. pombe* et sous le nom de *cytb* chez *S. cerevisiae*. La séquence de *S. pombe* a également été annotée comme possédant deux autres introns, liés au gène *cox1* cette fois-ci. Pour rappel, les séquences n'ayant pas été validées par les experts du NCBI, il est possible, bien qu'incertain, qu'il manque des introns dans l'une ou l'autre des espèces. Ces différences reflètent tout de même des évolutions propres à chaque lignée mitochondriale et soulignent des variations potentielles dans la complexité de l’expression de leurs ARN.
 
-Afin de savoir si ces gènes sont potentiellement identiques, il est utile de comparer leurs tailles respectives.  Une première étape a été d'analyser ces CDS mitochondriaux en termes de longueur, bien que ces données soient peu pertinentes pour identifier des gènes homologues. Ces statistiques montrent une plus grande variation dans les tailles de CDS chez *S. pombe* ainsi que des valeurs globalement plus hautes pour la médiane et la moyenne. Ces différences sont principalement dues à la présence d'introns chez *S. pombe*. Pour pouvoir mieux visualiser la distribution des tailles des CDS, un graphique a été produit, avec l'ensemble des gènes des deux espèces, ordonnés en fonction de leur taille en paires de bases.
+Afin de savoir si ces gènes sont potentiellement identiques, il est utile de comparer leurs tailles respectives. Une première étape a été d'analyser ces CDS mitochondriaux en termes de longueur, bien que ces données soient peu pertinentes pour identifier des gènes homologues. Ces statistiques montrent une plus grande variation dans les tailles de CDS chez *S. pombe* ainsi que des valeurs globalement plus hautes pour la médiane et la moyenne. Ces différences sont principalement dues à la présence d'introns chez *S. pombe*. Pour pouvoir mieux visualiser la distribution des tailles des CDS, un graphique a été produit, avec l'ensemble des gènes des deux espèces, ordonnés en fonction de leur taille en paires de bases.
 
 ![plot_length_cds](C:\Users\Vicky\Documents\HEIG-VD\10_SP_25\BBC\Laboratoires\genomes-mitochondriaux-levures\figures\plot_length_cds.png)
 
@@ -151,8 +153,8 @@ Cette analyse nous aidera à voir si ces deux espèces, qui utilisent différemm
 **Fonction déclarée pour les deux espèces** (selon UniProt) :
 ATP6 est une sous-unité essentielle du domaine **F₀** de l’ATP synthase mitochondriale. Elle participe à la formation du **canal à protons**, permettant le couplage entre le passage des H⁺ et la synthèse d’ATP par le domaine catalytique F₁.
 
-Les deux descriptions sont **identiques**, ce qui confirme une **fonction biochimique partagée**.  
-Elle est indispensable à la **respiration cellulaire aérobie** et à la production d’énergie chez les eucaryotes.  
+Les deux descriptions sont **identiques**, ce qui confirme une **fonction biochimique partagée**. 
+Elle est indispensable à la **respiration cellulaire aérobie** et à la production d’énergie chez les eucaryotes. 
 
 ---
 
@@ -203,8 +205,8 @@ Cela confirme que, malgré une divergence de séquence, **la structure 3D et la 
 **Fonction déclarée pour les deux espèces** (selon UniProt) :
 ATP8 est une **sous-unité mineure** du domaine **F₀** de l’ATP synthase. Elle est située dans la membrane mitochondriale, proche de la sous-unité a, et participe au couplage entre le **flux de protons** et la **synthèse d’ATP**.
 
-Les deux fiches UniProt donnent une **fonction strictement identique**.  
-Elle joue un **rôle complémentaire** à d'autres sous-unités dans la structure du complexe.  
+Les deux fiches UniProt donnent une **fonction strictement identique**. 
+Elle joue un **rôle complémentaire** à d'autres sous-unités dans la structure du complexe. 
 
 ---
 
@@ -311,8 +313,8 @@ COX1 est une **sous-unité catalytique** du complexe IV (cytochrome c oxydase), 
 * **Catalyse la réduction de O₂ en H₂O** via un centre binucléaire (héme A3 + cuivre B)
 * Contribue à la **génération du gradient de protons** nécessaire à la synthèse d’ATP
 
-Les fonctions décrites sont **strictement identiques** entre *S. pombe* et *S. cerevisiae*  
-COX1 est une **protéine essentielle à la respiration aérobie**  
+Les fonctions décrites sont **strictement identiques** entre *S. pombe* et *S. cerevisiae* 
+COX1 est une **protéine essentielle à la respiration aérobie** 
 
 ---
 
