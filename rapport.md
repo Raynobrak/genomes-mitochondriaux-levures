@@ -5,7 +5,7 @@
 ## Sujet choisi
 
 **Projet 5: Génomes Mitochondriaux**
-- Comparer, pour les espèces S. Pombe et S. Cerevisiae, les caractéristiques de leurs génomes mitochondriaux (mtDNA)
+- Comparer, pour les espèces *S. pombe* et *S. cerevisiae*, les caractéristiques de leurs génomes mitochondriaux (mtDNA)
 - Extraire les gènes codants et leurs annotations
 - Extraire et visualiser des statistiques comme la taille, composition en bases, nombre de gènes codants, etc
 - Identifier les voies métaboliques impliquées dans la digestion du glucose en aérobie (respiration) ou anaérobie (fermentation) et placer les gènes mitochondriaux dans ce contexte
@@ -13,12 +13,12 @@
 
 ## Contexte
 
-Les levures à analyser, *S. Pompe* et *S. Cerevisiae*, aussi connues sous les noms respectifs de "levure de fission" et "levure de boulangerie", sont deux organismes très documentés et souvent exminées en laboratoire pour comprendre le fonctionnement du vivant.
+Les levures à analyser, *S. pombe* et *S. cerevisiae*, aussi connues sous les noms respectifs de "levure de fission" et "levure de boulangerie", sont deux organismes très documentés et souvent examinées en laboratoire pour comprendre le fonctionnement du vivant.
 
 L'être humain a démontré à de nombreuses reprises son obsession pour la pratique consistant à "laisser traîner accidentellement" des préparations dans des récipients fermés, ce qui a conduit à la création de nombreux produits : 
 - Le pain : Les levures consomment le sucre contenu dans la pâte et produisent du Co2, ce qui permet de faire lever la pâte et donner au pain une texture aérée, au lieu d'une simple galette.
 - Le fromage : Les levures jouent un rôle clé durant l'affinage de certains fromages.
-- Boissons alcoolisées : Les levures sont à la base de nombreuses boissons alcoolisées car elles produisent de l'alcool suite à la consommation du sucre (glucose). 
+- Les boissons alcoolisées : Les levures sont à la base de nombreuses boissons alcoolisées car elles produisent de l'alcool suite à la consommation du sucre (glucose). 
 - Le kéfir : C'est une boisson à base d'eau (ou de lait) faite à partir de grain de kéfir (combinaison de levures et bactéries lactiques).
 - Le kimchi : Élément important de la cuisine coréenne, la préparation du kimchi consiste à laisser fermenter du chou chinois dans de la saumure pendant plusieurs semaines. 
 - La kombucha : La kombucha est préparée à partir d'une culture de levures et bactéries plongées dans un mélange sucré (généralement du thé noir).
@@ -30,7 +30,7 @@ Mis à part les préparations culinaires, les levures sont également utilisées
 
 ## Données
 
-Pour ce projet, l’analyse se concentre donc sur les génomes mitochondriaux des deux espèces de levures, *Schizosaccharomyces pompe* et *Saccharomyces cerevisiae*. Contrairement au génome nucléaire, le génome mitochondrial est un ADN circulaire de plus petite taille, localisé dans les mitochondries, et spécialisé dans le fonctionnement de la respiration cellulaire. Bien que réduit en comparaison du génome principal, il conserve des gènes essentiels au métabolisme énergétique, notamment ceux codant pour des protéines de la chaîne respiratoire, des ARN de transfert (ARNt), et des ARN ribosomiques (ARNr).
+Pour ce projet, l’analyse se concentre donc sur les génomes mitochondriaux des deux espèces de levures, *Schizosaccharomyces pombe* et *Saccharomyces cerevisiae*. Contrairement au génome nucléaire, le génome mitochondrial est un ADN circulaire de plus petite taille, localisé dans les mitochondries, et spécialisé dans le fonctionnement de la respiration cellulaire. Bien que réduit en comparaison du génome principal, il conserve des gènes essentiels au métabolisme énergétique, notamment ceux codant pour des protéines de la chaîne respiratoire, des ARN de transfert (ARNt), et des ARN ribosomiques (ARNr).
 
 Les séquences complètes des génomes mitochondriaux ont été récupérées depuis la base de données GenBank / RefSeq du NCBI. Les identifiants d’accession utilisés sont les suivants :
 
@@ -92,7 +92,7 @@ En présence d'oxygène, 3 voies métaboliques supplémentaires doivent être tr
 2. Cycle de Krebs -> produit du NADH à partir du pyruvate
 3. Phosphorylation oxydative -> Convertit le NADH en ATP
 
-### Comparaison génétique de S. Pompe et S. Cerevisiae
+### Comparaison génétique de S. b et S. Cerevisiae
 
 ![alt text](genes.png)
 
@@ -498,7 +498,7 @@ La **structure centrale ribosomique est préservée**, mais les extrémités év
 **Conclusion** : Bien que la séquence de Rps3 soit très divergente entre *S. cerevisiae* et *S. pombe*, les fonctions ribosomiques de base sont probablement conservées. Les régions divergentes suggèrent des **adaptations spécifiques**, notamment pour les **fonctions extraribosomiques**, qui varient selon le contexte cellulaire de chaque espèce.
 
 
-## Source, références, bibliographie
+## Sources, références, bibliographie
 - Levures et fromage : https://www.actalia.eu/les-levures-dans-les-differents-types-de-fromage/
 - Kimchi : https://fr.wikipedia.org/wiki/Kimchi
 - Kombucha : https://fr.wikipedia.org/wiki/Kombucha
