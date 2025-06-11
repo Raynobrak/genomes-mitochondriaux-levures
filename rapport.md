@@ -7,6 +7,7 @@
 ## Sujet choisi
 
 **Projet 5: Génomes Mitochondriaux**
+
 - Comparer, pour les espèces *S. pombe* et *S. cerevisiae*, les caractéristiques de leurs génomes mitochondriaux (mtDNA)
 - Extraire les gènes codants et leurs annotations
 - Extraire et visualiser des statistiques comme la taille, composition en bases, nombre de gènes codants, etc
@@ -17,18 +18,17 @@
 
 ## Contexte
 
-Les levures à analyser, *S. pombe* et *S. cerevisiae*, aussi connues sous les noms respectifs de "levure de fission" et "levure de boulangerie", sont deux organismes très documentés et souvent examinées en laboratoire pour comprendre le fonctionnement du vivant.
+Les levures à analyser, *S. pombe* et *S. cerevisiae*, aussi connues sous les noms respectifs de "levure de fission" et "levure de boulangerie", sont deux organismes très documentés et souvent examinés en laboratoire pour comprendre le fonctionnement du vivant.
 
 L'être humain a démontré à de nombreuses reprises son obsession pour la pratique consistant à "laisser traîner accidentellement" des préparations dans des récipients fermés, ce qui a conduit à la création de nombreux produits : 
 - Le pain : Les levures consomment le sucre contenu dans la pâte et produisent du Co2, ce qui permet de faire lever la pâte et donner au pain une texture aérée, au lieu d'une simple galette.
 - Le fromage : Les levures jouent un rôle clé durant l'affinage de certains fromages.
-- Les boissons alcoolisées : Les levures sont à la base de nombreuses boissons alcoolisées car elles produisent de l'alcool suite à la consommation du sucre (glucose). 
+- Les boissons alcoolisées : Les levures sont à la base de nombreuses boissons alcoolisées, car elles produisent de l'alcool suite à la consommation du sucre (glucose). 
 - Le kéfir : C'est une boisson à base d'eau (ou de lait) faite à partir de grain de kéfir (combinaison de levures et bactéries lactiques).
 - Le kimchi : Élément important de la cuisine coréenne, la préparation du kimchi consiste à laisser fermenter du chou chinois dans de la saumure pendant plusieurs semaines. 
 - La kombucha : La kombucha est préparée à partir d'une culture de levures et bactéries plongées dans un mélange sucré (généralement du thé noir).
-- En boulangerie, les levures sont utilisées pour faire lever la pâte. Durant la fermentation, les cellules consomme le sucre et produisent du Co2. Combiné à l'elasticité que procure le gluten, cela a pour effet de faire gonfler la pâte et d'obtenir une texture aérée.
 
-Mis à part les préparations culinaires, les levures sont également utilisées dans la création de produits pharmaceutiques. Le principe repose sur la modification du génome d'une levure pour qu'elle synthétise une molécule spécifique. Par exemple, des biologistes ont réussi à faire en sorte que des levures synthétise de la psylocybine. Une molécule qui serait généralement assez compliquée à obtenir car elle nécessiterait de faire pousser des champignons pour en extraire le principe actif. C'est donc un gain de temps impressionnant.
+Mis à part les préparations culinaires, les levures sont également utilisées dans la création de produits pharmaceutiques. Le principe repose sur la modification du génome d'une levure pour qu'elle synthétise une molécule spécifique. Par exemple, des biologistes ont réussi à faire en sorte que des levures synthétisent de la psilocybine, molécule utilisée pour soigner certaines dépressions lourdes. Une molécule qui serait généralement assez compliquée à obtenir car elle nécessiterait de faire pousser des champignons pour en extraire le principe actif. C'est donc un gain de temps impressionnant.
 
 <div style="page-break-after: always; break-after: page;"></div>
 
@@ -55,7 +55,7 @@ En effet, le génome mitochondrial de *S. cerevisiae* possède 78'917 paires de 
 
 La composition en bases diffère aussi fortement : le génome mitochondrial de *S. cerevisiae* est très appauvri en GC avec seulement 16,13 %, tandis que *S. pombe* atteint 30,07 %. Cette statistique est intéressante, car la composition en bases peut influencer plusieurs aspects du fonctionnement mitochondrial, dont l’efficacité de la transcription et de la traduction. Un taux de GC plus élevé est également associé à une meilleure stabilité thermique de l'ADN et des ARNt. Ces différences reflètent des stratégies évolutives divergentes dans l’adaptation métabolique au niveau mitochondrial, malgré le fait que les deux espèces soient des levures.
 
-Cette différence de taille et de composition pousse à s'intéresser sur la proportion du génome réellement consacrée aux gènes codants, pour mieux comprendre les stratégies d’optimisation ou de redondance mises en place dans le génome mitochondrial de chaque levure. Pour pouvoir évaluer cette répartition génétique, le nombre de gènes a été calculé. *S. pombe* présente 25 gènes d’ARNt, 2 d’ARNr, 1 autre ARNnm et 11 séquences codantes pour des protéines (CDS), soit un total de 39 gènes. De son côté, *S. cerevisiae* en contient respectivement 24, 2, 1 et 8, totalisant 35 gènes. À noter que les ARNnm (ARN non messager) sont des ARN non codant, comme les ARNt et ARNr, mais les séquences utilisées n'offrent pas d'indication supplémentaire sur le type de ces ARN. La majorité des gènes sont localisés sur le brin positif chez les deux espèces, avec une exception chez *S. cerevisiae*, où un gène est situé sur le brin négatif. Ces chiffres bruts ne permettent pas de dire si l'une des levures possède une organisation du génome plus efficace, ne connaissant pas à ce stade les tailles des différents gènes. Il est donc plus pertinent de s’intéresser à la densité génétique, c’est-à-dire à la proportion du génome effectivement utilisée pour coder des gènes. Cette densité atteint 112,76 % chez *S. pombe* contre seulement 33,83 % pour *S. cerevisiae*. Le taux supérieur à 100% chez *S. pombe* est dû à un chevauchement de certaines séquences, par exemple avec des introns, et met en évidence une structuration bien plus compacte de son génome mitochondrial, en contraste avec la proportion importante de régions non codantes chez *S. cerevisiae*, indiquant un rôle possible des régions non codantes.
+Cette différence de taille et de composition pousse à s'intéresser sur la proportion du génome réellement consacrée aux gènes codants, pour mieux comprendre les stratégies d’optimisation ou de redondance mises en place dans le génome mitochondrial de chaque levure. Pour pouvoir évaluer cette répartition génétique, le nombre de gènes a été calculé. *S. pombe* présente 25 gènes d’ARNt, 2 d’ARNr, 1 autre ARNnm et 11 séquences codantes pour des protéines (CDS), soit un total de 39 gènes. De son côté, *S. cerevisiae* en contient respectivement 24, 2, 1 et 8, totalisant 35 gènes. À noter que les ARNnm (ARN non-messager) sont des ARN non codants, comme les ARNt et ARNr, mais les séquences utilisées n'offrent pas d'indication supplémentaire sur le type de ces ARN. La majorité des gènes sont localisés sur le brin positif chez les deux espèces, avec une exception chez *S. cerevisiae*, où un gène est situé sur le brin négatif. Ces chiffres bruts ne permettent pas de dire si l'une des levures possède une organisation du génome plus efficace, ne connaissant pas à ce stade les tailles des différents gènes. Il est donc plus pertinent de s’intéresser à la densité génétique, c’est-à-dire à la proportion du génome effectivement utilisée pour coder des gènes. Cette densité atteint 112,76 % chez *S. pombe* contre seulement 33,83 % pour *S. cerevisiae*. Le taux supérieur à 100% chez *S. pombe* est dû à un chevauchement de certaines séquences, par exemple avec des introns, et met en évidence une structuration bien plus compacte de son génome mitochondrial, en contraste avec la proportion importante de régions non codantes chez *S. cerevisiae*, indiquant un rôle possible des régions non codantes.
 
 La différence de densité génétique entre nos deux levures et la présence de chevauchements chez *S. pombe* poussent à représenter graphiquement le positionnement des gènes au sein de leurs génomes afin de mieux les comprendre. Un schéma linéaire a donc été créé pour chaque espèce afin de visualiser les positions relatives des ARNr, ARNt et des CDS. L'affichage a été séparé en deux lignes distinctes afin de permettre une représentation plus lisible des chevauchements présents.
 
@@ -83,17 +83,16 @@ Cette analyse statistique met en évidence des différences nettes entre les gé
 
 ## Analyse des voies métaboliques de digestion du glucose
 
-Dans cette section, nous analyserons les voies métaboliques impliquées dans la digestion du glucose pour les deux levure en question. Nous contextualiserons ensuite les gènes trouvés aux étapes précédentes afin d'identifier leur utilité dans ces voies métaboliques. Plus particulièrement, il faudra comparer les différences entre les voies métaboliques de ces deux levures et les deux modes de métabolisation (aérobie et anaérobie).
+Dans cette section, nous analyserons les voies métaboliques impliquées dans la digestion du glucose pour les deux levures en question. Nous contextualiserons ensuite les gènes trouvés aux étapes précédentes afin d'identifier leur utilité dans ces voies métaboliques. Plus particulièrement, il faudra comparer les différences entre les voies métaboliques de ces deux levures et les deux modes de métabolisation (aérobie et anaérobie).
 
 ### Qu'est-ce qu'une voie métabolique ?
 
 Une voie métabolique est l'ensemble des réactions chimiques impliquées dans la transformation d'une molécule en une autre au sein d'un être vivant. Cette transformation s'effectue au moyen d'enzymes.
-Dans notre cas, il s'agira d'analyser les voies métaboliques permetttant de digérer le glucose pour en tirer de l'énergie (ATP).
+Dans notre cas, il s'agira d'analyser les voies métaboliques permettant de digérer le glucose pour en tirer de l'énergie (ATP).
 
 ### Différents modes de métabolisation
 
-***Métabolisme en aérobie*** : Lorsque les levures disposent de glucose **et** d'oxygène, elles produisent du Co2.
-***Métabolisme en anaérobie*** : Lorsque les levures disposent de glucose mais pas d'oxygène, elles produisent du Co2 **et** de l'éthanol. C'est pour cette raison que la fermentation dans le but de créer des boissons alcoolisées se fait généralement dans des récipients fermés (également pour éviter les contaminations).
+On distingue deux modes de métabolismes chez les levures :  le métabolisme en aérobie et le métabolisme en anaérobie. Lorsque les levures disposent de glucose et d'oxygène, elles produisent du Co2. C'est le métabolisme en aérobie. Au contraire, dans le métabolisme en anaérobie, les levures disposent de glucose, mais pas d'oxygène. Elles produisent alors du Co2 et de l'éthanol. C'est pour cette raison que la fermentation dans le but de créer des boissons alcoolisées se fait généralement dans des récipients fermés (également pour éviter les contaminations).
 
 Sous certaines conditions, les levures peuvent métaboliser le sucre de manière anaérobique même en présence d'oxygène. Cet effet est connu sous le nom d'effet "***Crabtree***". Lorsque l'organisme se trouve dans un environnement avec une forte teneur en glucose, la respiration (métabolisation aérobique) serait inhibée et la fermentation (anaérobie) prendra le dessus.
 
@@ -105,9 +104,9 @@ Cette section décrit les différentes voies métaboliques impliquées dans la d
 La Glycolyse (ou voie d'Embden-Meyerhof-Parnas) est la première étape de la digestion du glucose. Ici, les molécules de glucose sont "cassées" en deux et elles sont converties en pyruvate. Un petit peu d'ATP est déjà produit durant ce processus. Cette voie métabolique est commune à la respiration et à la fermentation. Pour que la glycolyse puisse s'effectuer, la cellule a besoin de glucose et de NAD+. Le NAD+ peut-être synthétisé par la cellule (à partir de vitamine B3) ou lors de la fermentation, en recyclant le NADH en trop (voir ci-dessous).
 
 #### Fermentation
-En cas de fermentation, donc en l'absence d'oxygène, la voie métabolique utilisée est celle de la **fermentation alcoolique**. La fermentation alcoolique, au travers de multiples réactions chimiques et de l'utilisation de plusieurs enzymes différentes, prend le pyruvate issu de la glycolyse et produit 2 choses :
+En cas de fermentation, donc en l'absence d'oxygène, la voie métabolique utilisée est celle de la fermentation alcoolique. La fermentation alcoolique, au travers de multiples réactions chimiques et de l'utilisation de plusieurs enzymes différentes, prend le pyruvate issu de la glycolyse et produit 2 choses :
 1. De l'alcool (éthanol)
-2. **Du NAD+**
+2. Du NAD+
 
 À proprement parler, la fermentation ne permet pas de créer plus d'énergie. Cela dit, elle produit du NAD+, ce qui permet de faire en sorte que la glycolyse s'effectue à nouveau. C'est avantageux car le NAD+ nécessite habituellement d'être synthétisé à partir de la vitamine B3 et est donc relativement difficile à obtenir. La fermentation permet donc de sauter cette étape et d'effectuer la glycolyse en continu.
 
@@ -115,23 +114,25 @@ En d'autres termes, la fermentation ne crée pas d’énergie supplémentaire ; 
 
 #### Respiration
 En présence d'oxygène, 3 voies métaboliques supplémentaires doivent être traversées afin de produire de l'ATP :
-1. Décarboxylation du pyruvate -> Prépare le pyruvate obtenu à partir de la glycolyse pour le cycle de Krebs
-2. Cycle de Krebs -> produit du NADH à partir du pyruvate
-3. Phosphorylation oxydative -> Convertit le NADH en ATP
+1. Décarboxylation du pyruvate : Prépare le pyruvate obtenu à partir de la glycolyse pour le cycle de Krebs
+2. Cycle de Krebs : Produit du NADH à partir du pyruvate
+3. Phosphorylation oxydative : Convertit le NADH en ATP
 
 ### Comparaison génétique de S. b et S. Cerevisiae
 
 ![gene_correspondance](.\figures\gene_correspondance.png)
 
-Les gènes atp6, atp8, atp9, cox1, cox2, cox3, rps3 sont communs aux deux espèces et sont relatifs à la dernière voie métabolique de digestion du glucose; la phosphorylation oxydative. C'est cette dernière réaction qui permet de convertir le NADH en ATP.
+Les gènes atp6, atp8, atp9, cox1, cox2, cox3, rps3 sont communs aux deux espèces et sont relatifs à la dernière voie métabolique de digestion du glucose: la phosphorylation oxydative. C'est cette dernière réaction qui permet de convertir le NADH en ATP.
 
-Les gènes CYTB et COB respectivement spécifiques à S. Cerevisiae et S. Pombe servent tout deux à coder la protéine **apocytochrome b** qui un rôle important dans la respiration.
+Les gènes CYTB et COB respectivement spécifiques à S. Cerevisiae et S. Pombe servent tous deux à coder la protéine *apocytochrome b* qui un rôle important dans la respiration.
 
-Les séquences cob-I1, cox1-I1b et cox1-I2b ne sont pas de vrais gènes : ce sont des introns mobiles. On peut les considérer comme étant « éléments génétiques égoïstes ». Ce sont des petits « parasites » moléculaires qui s'insèrent dans l'ADN et qui se répliquent. Ils ne codent aucune partie de la protéine finale ; toutefois, tant qu’ils s’auto-épissent correctement, ils n’entravent pas la production des protéines Cob ou Cox1 et restent donc globalement neutres pour la cellule.
+Les séquences cob-I1, cox1-I1b et cox1-I2b ne sont pas de vrais gènes : ce sont des introns mobiles. On peut les considérer comme étant « éléments génétiques égoïstes ». Ce sont des petits « parasites » moléculaires qui s'insèrent dans l'ADN et qui se répliquent. Ils ne codent aucune partie de la protéine finale. Toutefois, tant qu’ils s’autoépissent correctement, ils n’entravent pas la production des protéines Cob ou Cox1 et restent donc globalement neutres pour la cellule.
 
-# Comparaison des protéines mitochondriales homologues entre S. pombe et S. cerevisiae
+<div style="page-break-after: always; break-after: page;"></div>
 
-Nous comparons les protéines mitochondriales de deux espèces de levures : Schizosaccharomyces pombe et Saccharomyces cerevisiae. L’objectif est de voir à quel point leurs protéines sont similaires, en particulier celles qui jouent un rôle dans la production d’énergie à l’intérieur de la cellule.
+## Comparaison des protéines mitochondriales homologues
+
+Dans cette section, nous comparons les protéines mitochondriales des deux espèces de levures. L’objectif est de voir à quel point leurs protéines sont similaires, en particulier celles qui jouent un rôle dans la production d’énergie à l’intérieur de la cellule.
 
 Pour cela, nous utilisons l’outil EMBOSS Needle, qui permet d’aligner deux séquences de protéines du début à la fin. Cet alignement global est utile pour comparer des protéines de même type (dites « homologues ») et voir si elles ont évolué de manière similaire. Si deux protéines sont très proches, cela peut indiquer qu’elles assurent encore la même fonction, malgré les différences entre les espèces.
 
@@ -139,9 +140,11 @@ Nous avons sélectionné sept protéines présentes dans les deux espèces : atp
 
 Nous avons également comparé la fonction de chaque protéine, en nous appuyant sur les descriptions fournies par UniProt, une base de données de référence en biologie moléculaire. Pour cela, nous avons utilisé ChatGPT afin d’évaluer si les fonctions annotées étaient similaires entre S. pombe et S. cerevisiae. Enfin, nous avons analysé la structure 3D de chaque protéine pour les deux espèces, afin de vérifier si leur forme était conservée. Cela nous permet de déterminer si, malgré les différences de séquence, ces protéines ont évolué de manière similaire, en conservant une structure et une fonction comparables.
 
-## Protéine atp6
+<div style="page-break-after: always; break-after: page;"></div>
 
-### 1. Alignement global
+### Protéine atp6
+
+#### 1. Alignement global
 
 | Critère          | Valeur             | Interprétation                                                                 |
 | -------------------- | ---------------------- | ---------------------------------------------------------------------------------- |
@@ -151,9 +154,7 @@ Nous avons également comparé la fonction de chaque protéine, en nous appuyant
 | Gaps (indels)    | 26 / 271 (9.6 %)   | Des insertions/délétions dans les boucles, sans perturber les régions essentielles |
 | Score            | 571.5                  | Score élevé malgré une divergence modérée : structure probablement conservée       |
 
----
-
-### 2. Comparaison de la fonction
+#### 2. Comparaison de la fonction
 
 Fonction déclarée pour les deux espèces (selon UniProt) :
 ATP6 est une sous-unité essentielle du domaine F₀ de l’ATP synthase mitochondriale. Elle participe à la formation du canal à protons, permettant le couplage entre le passage des H⁺ et la synthèse d’ATP par le domaine catalytique F₁.
@@ -161,9 +162,7 @@ ATP6 est une sous-unité essentielle du domaine F₀ de l’ATP synthase mitocho
 Les deux descriptions sont identiques, ce qui confirme une fonction biochimique partagée.  
 Elle est indispensable à la respiration cellulaire aérobie et à la production d’énergie chez les eucaryotes.  
 
----
-
-### 3. Comparaison de la structure 3D
+#### 3. Comparaison de la structure 3D
 
 | *S. cerevisiae* | *S. pombe* |
 | --------------- | ---------- |
@@ -177,13 +176,14 @@ Les deux structures AlphaFold montrent une organisation quasi identique :
 
 Cela confirme que, malgré une divergence de séquence, la structure 3D et la fonction de canal sont préservées.
 
-
 Même si les séquences sont différentes à plus de 50 %, les deux protéines ATP6 remplissent la même fonction et ont une forme très similaire. Cela montre que, malgré l’évolution, la protéine a gardé son rôle essentiel dans la production d’énergie. Les petites différences ne touchent pas les zones importantes, ce qui permet à la protéine de continuer à fonctionner correctement dans les deux espèces.
 
 
-## Protéine atp8
 
-### 1. Alignement global
+
+### Protéine atp8
+
+#### 1. Alignement global
 
 | Critère          | Valeur           | Interprétation                                                             |
 | -------------------- | -------------------- | ------------------------------------------------------------------------------ |
@@ -193,9 +193,7 @@ Même si les séquences sont différentes à plus de 50 %, les deux protéines
 | Gaps (indels)    | 0 / 48 (0.0 %)   | Aucun décalage → topologie parfaitement alignée                                |
 | Score            | 126.0                | Score alignement significatif pour une petite protéine → conservation probable |
 
----
-
-### 2. Comparaison de la fonction
+#### 2. Comparaison de la fonction
 
 Fonction déclarée pour les deux espèces (selon UniProt) :
 ATP8 est une sous-unité mineure du domaine F₀ de l’ATP synthase. Elle est située dans la membrane mitochondriale, proche de la sous-unité a, et participe au couplage entre le flux de protons et la synthèse d’ATP.
@@ -203,9 +201,7 @@ ATP8 est une sous-unité mineure du domaine F₀ de l’ATP synthase. Elle est s
 Les deux fiches UniProt donnent une fonction strictement identique.  
 Elle joue un rôle complémentaire à d'autres sous-unités dans la structure du complexe.  
 
----
-
-### 3. Comparaison de la structure 3D
+#### 3. Comparaison de la structure 3D
 
 | *S. cerevisiae* | *S. pombe* |
 | --------------- | ---------- |
@@ -218,13 +214,14 @@ Les deux structures AlphaFold montrent :
 
 Les modèles confirment que la forme nécessaire à l’insertion dans la membrane et au contact avec la sous-unité a est maintenue.
 
-
 Même si ATP8 est une petite protéine, elle est très bien conservée entre les deux espèces. Sa séquence est à moitié identique, sa forme est quasiment la même, et sa fonction est strictement partagée. Cela montre qu’elle joue un rôle important et stable dans la production d’énergie, et que l’évolution n’a pas modifié ses éléments essentiels.
 
+<div style="page-break-after: always; break-after: page;"></div>
 
-## Protéine atp9
 
-### 1. Alignement global
+### Protéine atp9
+
+#### 1. Alignement global
 
 | Critère          | Valeur            | Interprétation                                                                  |
 | -------------------- | --------------------- | ----------------------------------------------------------------------------------- |
@@ -234,9 +231,7 @@ Même si ATP8 est une petite protéine, elle est très bien conservée entre les
 | Gaps             | 2 / 76 (2.6 %)        | Très peu d’indels → alignement fiable et structure comparable                       |
 | Score            | 253.0                 | Très bon score → ressemblance fonctionnelle et structurale probable                 |
 
----
-
-### 2. Comparaison de la fonction
+#### 2. Comparaison de la fonction
 
 Fonction décrite pour les deux espèces (UniProt) :
 ATP9 correspond à la sous-unité c de l’ATP synthase mitochondriale (complexe V, domaine F₀).
@@ -244,9 +239,7 @@ Elle est fortement hydrophobe, et forme un anneau homomérique (c-ring) d’envi
 
 Les deux descriptions sont strictement identiques, confirmant une fonction critique et conservée.
 
----
-
-### 3. Comparaison de la structure 3D
+#### 3. Comparaison de la structure 3D
 
 | *S. cerevisiae* | *S. pombe* |
 | -------------- | ---------- |
@@ -262,9 +255,11 @@ La forme canonique de la sous-unité c est clairement conservée, expliquant la 
 ATP9 est une protéine très bien conservée entre S. cerevisiae et S. pombe, aussi bien au niveau de la séquence, de la forme 3D, que de la fonction. Elle joue un rôle clé dans la production d’énergie via l’ATP synthase. Son fort taux de similarité et ses structures presque identiques montrent que cette protéine est essentielle et peu sujette aux changements évolutifs, car elle est indispensable au bon fonctionnement de la respiration cellulaire.
 
 
-## Protéine cox1
 
-### 1. Alignement global
+
+### Protéine cox1
+
+#### 1. Alignement global
 
 | Critère          | Valeur             | Interprétation                                                        |
 | -------------------- | ---------------------- | ------------------------------------------------------------------------- |
@@ -274,9 +269,7 @@ ATP9 est une protéine très bien conservée entre S. cerevisiae et S. pombe, au
 | Gaps             | 14 / 543 (2.6 %)   | Très peu de décalages → structure bien alignée                            |
 | Score            | 1814.0                 | Très bon score, typique d’une forte conservation fonctionnelle            |
 
----
-
-### 2. Comparaison de la fonction
+#### 2. Comparaison de la fonction
 
 Fonction pour les deux espèces (selon UniProt) :
 COX1 est une sous-unité catalytique du complexe IV (cytochrome c oxydase), situé à l’extrémité de la chaîne respiratoire mitochondriale. Elle :
@@ -285,12 +278,10 @@ COX1 est une sous-unité catalytique du complexe IV (cytochrome c oxydase), situ
 * Catalyse la réduction de O₂ en H₂O via un centre binucléaire (héme A3 + cuivre B)
 * Contribue à la génération du gradient de protons nécessaire à la synthèse d’ATP
 
-Les fonctions décrites sont strictement identiques entre *S. pombe* et *S. cerevisiae*  
-COX1 est une protéine essentielle à la respiration aérobie  
+Les fonctions décrites sont strictement identiques entre *S. pombe* et *S. cerevisiae*.   
+COX1 est une protéine essentielle à la respiration aérobie. 
 
----
-
-### 3. Comparaison de la structure 3D
+#### 3. Comparaison de la structure 3D
 
 | *S. cerevisiae* | *S. pombe* |
 | --------------- | ---------- |
@@ -302,13 +293,15 @@ Les modèles AlphaFold montrent :
 * Une forte superposition des deux formes, malgré quelques variations aux extrémités ou en surface
 * Le cœur catalytique et le repliement global sont très proches
 
-La forme globale est hautement conservée, garantissant le bon positionnement des groupes héminiques et des atomes de cuivre nécessaires à la catalyse
+La forme globale est hautement conservée, garantissant le bon positionnement des groupes héminiques et des atomes de cuivre nécessaires à la catalyse.
 
 COX1 est une protéine très bien conservée entre S. cerevisiae et S. pombe, aussi bien dans sa séquence, sa fonction, que sa structure 3D. Elle joue un rôle central dans la respiration mitochondriale en permettant la transformation de l’oxygène en eau. Les fortes similarités observées montrent que cette protéine est indispensable et a été peu modifiée au cours de l’évolution, car elle est cruciale pour produire l’énergie nécessaire à la cellule.
 
-## Protéine cox2
 
-### 1. Alignement global
+
+### Protéine cox2
+
+#### 1. Alignement global
 
 | Critère          | Valeur             | Interprétation                                                              |
 | -------------------- | ---------------------- | ------------------------------------------------------------------------------- |
@@ -318,22 +311,18 @@ COX1 est une protéine très bien conservée entre S. cerevisiae et S. pombe, au
 | Gaps             | 9 / 254 (3.5 %)    | Faible nombre de décalages → structure comparable                               |
 | Score Needle     | 713.0                  | Score élevé → alignement fiable et structurellement pertinent                   |
 
----
-
-### 2. Comparaison de la fonction
+#### 2. Comparaison de la fonction
 
 Fonction décrite pour les deux espèces (UniProt) :
 COX2 est une sous-unité catalytique membranaire du complexe IV (cytochrome c oxydase). Elle joue un rôle central dans la respiration mitochondriale :
 
-* Elle reçoit les électrons du cytochrome c via son centre cuivre A (CU(A))
-* Elle les transmet au site actif du COX1 (binuclear center : héme A3 + cuivre B)
-* Elle participe ainsi à la réduction de l’oxygène en eau, dernière étape de la chaîne respiratoire
+* Elle reçoit les électrons du cytochrome c via son centre cuivre A (CU(A)).
+* Elle les transmet au site actif du COX1 (binuclear center : héme A3 + cuivre B).
+* Elle participe ainsi à la réduction de l’oxygène en eau, dernière étape de la chaîne respiratoire.
 
-Les descriptions des deux espèces sont quasiment identiques, confirmant une fonction catalytique critique et hautement conservée
+Les descriptions des deux espèces sont quasiment identiques, confirmant une fonction catalytique critique et hautement conservée.
 
----
-
-### 3. Comparaison de la structure 3D
+#### 3. Comparaison de la structure 3D
 
 | *S. cerevisiae* | *S. pombe* |
 | --------------- | ---------- |
@@ -344,13 +333,15 @@ Les modèles AlphaFold révèlent :
 * Une forme très similaire, avec des hélices transmembranaires stables et un domaine extracellulaire en repliement complexe
 * Quelques variations visibles sur les boucles exposées, mais la position du centre cuivre A est vraisemblablement conservée
 
-La structure générale et la topologie sont compatibles avec une fonction catalytique équivalente dans les deux levures
+La structure générale et la topologie sont compatibles avec une fonction catalytique équivalente dans les deux levures.
 
 COX2 est une protéine modérément conservée entre S. cerevisiae et S. pombe, avec une forte similarité dans les zones importantes. Sa fonction clé dans la respiration mitochondriale est préservée, tout comme sa forme générale. Malgré quelques petites différences en surface, le cœur de la protéine, là où se passent les réactions chimiques, reste pratiquement identique. Cela montre que COX2 continue d'assurer le même rôle essentiel dans les deux espèces.
 
-## Protéine cox3
+<div style="page-break-after: always; break-after: page;"></div>
 
-### 1. Alignement global
+### Protéine cox3
+
+#### 1. Alignement global
 
 | Critère          | Valeur             | Interprétation                                                            |
 | -------------------- | ---------------------- | ----------------------------------------------------------------------------- |
@@ -360,9 +351,7 @@ COX2 est une protéine modérément conservée entre S. cerevisiae et S. pombe, 
 | Gaps             | 4 / 271 (1.5 %)    | Très peu d’indels → alignement propre                                         |
 | Score Needle     | 678.5                  | Bon score → conservation structurale et fonctionnelle probable                |
 
----
-
-### 2. Comparaison de la fonction
+#### 2. Comparaison de la fonction
 
 Fonction déclarée (UniProt) :
 COX3 est une sous-unité membranaire du complexe IV (cytochrome c oxydase). Elle joue un rôle essentiel dans la respiration mitochondriale :
@@ -373,9 +362,7 @@ COX3 est une sous-unité membranaire du complexe IV (cytochrome c oxydase). Elle
 
 La fonction de COX3 est équivalente dans les deux espèces, mais moins directement catalytique que COX1/2.
 
----
-
-### 3. Comparaison de la structure 3D
+#### 3. Comparaison de la structure 3D
 
 | *S. cerevisiae* | *S. pombe* |
 | --------------- | ---------- |
@@ -391,9 +378,11 @@ La topologie membranaire est conservée, assurant une interaction correcte avec 
 
 COX3 montre une conservation partielle de la séquence, mais une forme 3D très similaire entre les deux levures. Sa fonction, bien que moins catalytique que COX1 ou COX2, reste essentielle pour stabiliser le complexe respiratoire. Grâce à cette structure bien conservée, COX3 continue de remplir son rôle de support dans la respiration mitochondriale, même si certaines différences existent. Cela confirme une évolution parallèle autour d’une fonction commune.
 
-## Protéine rps3
+<div style="page-break-after: always; break-after: page;"></div>
 
-### 1. Alignement global
+### Protéine rps3
+
+#### 1. Alignement global
 
 | Critère          | Valeur             | Interprétation                                             |
 | -------------------- | ---------------------- | -------------------------------------------------------------- |
@@ -403,9 +392,7 @@ COX3 montre une conservation partielle de la séquence, mais une forme 3D très 
 | Gaps             | 198 / 406 (48.8 %) | Alignement très fragmenté → nombreuses insertions ou délétions |
 | Score Needle     | 108.5                  | Score faible → séquences très divergentes                      |
 
----
-
-### 2. Comparaison de la fonction
+#### 2. Comparaison de la fonction
 
 Fonction principale dans les deux espèces (selon UniProt) :
 Rps3 est une protéine ribosomique faisant partie de la petite sous-unité 40S du ribosome. Elle participe à :
@@ -417,25 +404,21 @@ Rps3 est une protéine ribosomique faisant partie de la petite sous-unité 40S d
 
 Les descriptions de fonction sont identiques, mais l’étendue fonctionnelle de Rps3 dépasse largement le simple rôle structural.
 
----
-
-### 3. Comparaison de la structure 3D
+#### 3. Comparaison de la structure 3D
 
 | *S. cerevisiae* | *S. pombe* |
 | --------------- | ---------- |
 | ![RPS3\_cerevisiae](./figures/rps3/cerevisiae.png) | ![RPS3\_pombe](./figures/rps3/pombe.png) |
 
-Les deux structures présentent un noyau commun (pli β-α-β) typique des protéines ribosomiques  
-La forme globale est relativement conservée, mais les régions périphériques (en jaune/orange) sont très variables  
-Ces segments variables pourraient correspondre à des extensions spécifiques à l’espèce, impliquées dans des rôles extraribosomiques  
+Les deux structures présentent un noyau commun (pli β-α-β) typique des protéines ribosomiques.  
+La forme globale est relativement conservée, mais les régions périphériques (en jaune/orange) sont très variables.  
+Ces segments variables pourraient correspondre à des extensions spécifiques à l’espèce, impliquées dans des rôles extraribosomiques.
 
-La structure centrale ribosomique est préservée, mais les extrémités évoluent rapidement
+La structure centrale ribosomique est préservée, mais les extrémités évoluent rapidement.
 
 Bien que la séquence de Rps3 soit très divergente entre S. cerevisiae et S. pombe, les fonctions ribosomiques de base sont probablement conservées. Les régions divergentes suggèrent des adaptations spécifiques, notamment pour les fonctions extraribosomiques, qui varient selon le contexte cellulaire de chaque espèce.
 
 Rps3 présente une séquence très différente entre S. cerevisiae et S. pombe, avec peu d’acides aminés identiques et beaucoup de gaps dans l’alignement. Pourtant, sa structure 3D montre un noyau commun bien conservé, essentiel au bon fonctionnement du ribosome. Sa fonction principale – fabriquer les protéines dans la cellule – est donc probablement maintenue. Les différences observées concernent surtout des parties externes, liées à des rôles secondaires. Cela suggère que Rps3 a évolué de manière différente selon les espèces, tout en gardant sa fonction de base.
-
----
 
 <div style="page-break-after: always; break-after: page;"></div>
 
@@ -455,3 +438,4 @@ Rps3 présente une séquence très différente entre S. cerevisiae et S. pombe, 
 - https://pubmed.ncbi.nlm.nih.gov/12187383/
 - introns : https://news.ucsc.edu/2022/11/russ-origins-introns/
 - COB : https://www.yeastgenome.org/locus/S000007270
+- ncRNA : https://en.wikipedia.org/wiki/Non-coding_RNA
