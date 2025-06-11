@@ -59,21 +59,21 @@ Cette différence de taille et de composition pousse à s'intéresser sur la pro
 
 La différence de densité génétique entre nos deux levures et la présence de chevauchements chez *S. pombe* poussent à représenter graphiquement le positionnement des gènes au sein de leurs génomes afin de mieux les comprendre. Un schéma linéaire a donc été créé pour chaque espèce afin de visualiser les positions relatives des ARNr, ARNt et des CDS. L'affichage a été séparé en deux lignes distinctes afin de permettre une représentation plus lisible des chevauchements présents.
 
-![s.cerevisiae_repartition_genes](C:\Users\Vicky\Documents\HEIG-VD\10_SP_25\BBC\Laboratoires\genomes-mitochondriaux-levures\figures\s.cerevisiae_repartition_genes.png)
+![s.cerevisiae_repartition_genes](.\figures\s.cerevisiae_repartition_genes.png)
 
-![s.pombe_repartition_genes](C:\Users\Vicky\Documents\HEIG-VD\10_SP_25\BBC\Laboratoires\genomes-mitochondriaux-levures\figures\s.pombe_repartition_genes.png)
+![s.pombe_repartition_genes](.\figures\s.pombe_repartition_genes.png)
 
 En observant ces deux graphiques, il est important de faire attention à l'échelle utilisée, qui n'est pas la même, puisqu'elle représente l'ensemble du génome de la levure associée. Chaque gène y est représenté à l'aide d'une flèche indiquant sa longueur et sa direction, bien que cela soit parfois difficile à lire pour les gènes les plus petits. Il est rapidement visible que *S. pombe* présente une séquence génétique beaucoup plus dense contrairement à *S. cerevisiae* qui montre une répartition plus espacée et irrégulière, incluant de nombreuses régions non codantes. Le regroupement dense des gènes chez *S. pombe* reflète une forte pression évolutive pour optimiser l’espace génétique, expliquant la forte densité génétique obtenue précédemment. Ces différences d'arrangement traduisent des stratégies génomiques différentes. Là où *S. pombe* semble conserver un génome mitochondrial compact et fonctionnel, *S. cerevisiae* a évolué vers une structure plus tolérante face aux séquences non codantes, possiblement en lien avec des mécanismes de régulation post-transcriptionnelle plus complexes.
 
 Maintenant que nous avons vu de quelle manière sont répartis les gènes, il est intéressant de faire une analyse comparative des gènes mitochondriaux codants pour des protéines, afin de mettre en évidence les gènes communs aux deux levures. Cette comparaison n'a pas été effectuée pour les ARNt et ARNr, ces gènes n'étant pas toujours annotés de manière homogène. Les ARNt et ARNr possèdent également une gamme de noms beaucoup plus vaste et très peu d'entre eux sont réellement communs.
 
-![gene_correspondance](C:\Users\Vicky\Documents\HEIG-VD\10_SP_25\BBC\Laboratoires\genomes-mitochondriaux-levures\figures\gene_correspondance.png)
+![gene_correspondance](.\figures\gene_correspondance.png)
 
 Les deux espèces de levures ont donc sept gènes en commun, participant tous la respiration mitochondriale. Bien que cela ne soit pas visible au premier coup d'oeil, *S. pombe* et *S. cerevisiae* partagent également un huitième gène commun, le *CytochrOme B*, jouant lui aussi un rôle dans la respiration mitochondriale. Celui-ci apparait sous le nom de *cob*, avec un intron (*cob-I1*), pour *S. pombe* et sous le nom de *cytb* chez *S. cerevisiae*. La séquence de *S. pombe* a également été annotée comme possédant deux autres introns, liés au gène *cox1* cette fois-ci. Pour rappel, les séquences n'ayant pas été validées par les experts du NCBI, il est possible, bien qu'incertain, qu'il manque des introns dans l'une ou l'autre des espèces. Ces différences reflètent tout de même des évolutions propres à chaque lignée mitochondriale et soulignent des variations potentielles dans la complexité de l’expression de leurs ARN.
 
 Afin de savoir si ces gènes sont potentiellement identiques, il est utile de comparer leurs tailles respectives. Une première étape a été d'analyser ces CDS mitochondriaux en termes de longueur, bien que ces données soient peu pertinentes pour identifier des gènes homologues. Ces statistiques montrent une plus grande variation dans les tailles de CDS chez *S. pombe* ainsi que des valeurs globalement plus hautes pour la médiane et la moyenne. Ces différences sont principalement dues à la présence d'introns chez *S. pombe*. Pour pouvoir mieux visualiser la distribution des tailles des CDS, un graphique a été produit, avec l'ensemble des gènes des deux espèces, ordonnés en fonction de leur taille en paires de bases.
 
-![plot_length_cds](C:\Users\Vicky\Documents\HEIG-VD\10_SP_25\BBC\Laboratoires\genomes-mitochondriaux-levures\figures\plot_length_cds.png)
+![plot_length_cds](.\figures\plot_length_cds.png)
 
 Il est facilement visible que certains de ces gènes homologues ont la même taille et possèdent donc des séquences potentiellement identiques. D'autres gènes au contraire ont des tailles différentes, variant de quelques codons voir même passant presque du simple au double comme c'est le cas pour *rsp3* (684pb pour *S. pombe* contre 1164pb pour *S. cerevisiae*). Il y a donc sans doute eu des insertions ou des délétions dans ces gènes, impactant ainsi potentiellement leurs structures. D’autres statistiques pourraient enrichir l’analyse, notamment l'alignement des séquences ou le contenu en GC par CDS. Ces gènes étant comparés de manière plus poussée dans la section dédiée à la comparaison des protéines mitochondriales homologues, ces analyses ne seront pas présentées dans la présente section.
 
@@ -121,7 +121,7 @@ En présence d'oxygène, 3 voies métaboliques supplémentaires doivent être tr
 
 ### Comparaison génétique de S. b et S. Cerevisiae
 
-![alt text](genes.png)
+![gene_correspondance](.\figures\gene_correspondance.png)
 
 Les gènes atp6, atp8, atp9, cox1, cox2, cox3, rps3 sont communs aux deux espèces et sont relatifs à la dernière voie métabolique de digestion du glucose; la phosphorylation oxydative. C'est cette dernière réaction qui permet de convertir le NADH en ATP.
 
