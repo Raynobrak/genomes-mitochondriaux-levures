@@ -49,7 +49,7 @@ Ces données vont permettre une série d'analyses statistiques, après extractio
 
 ## Analyse statistique descriptive
 
-L’analyse statistique qui suit s’appuie sur les séquences mitochondriales présentées ci-dessus et sert à comparer les deux espèces de levures pour identifier de potentielles variations structurelles ou fonctionnelles. Calculées dans un notebook Jupyter et accessibles en annexe de ce rapport, ces statistiques ont permis de relever des différences notables en termes de taille et de composition entre les génomes mitochondriaux étudiés.
+L’analyse statistique qui suit s’appuie sur les séquences mitochondriales présentées ci-dessus et sert à comparer les deux espèces de levures pour identifier de potentielles variations structurelles ou fonctionnelles. Calculées dans un notebook Jupyter, ces statistiques ont permis de relever des différences notables en termes de taille et de composition entre les génomes mitochondriaux étudiés.
 
 En effet, le génome mitochondrial de *S. cerevisiae* possède 78'917 paires de bases, contre seulement 19'433 pour *S. pombe*, soit une variation de taille d'un facteur quatre. Cette différence ne s'explique pas uniquement pas le nombre de gènes présents dans ces séquences, comme cela sera montré plus loin, mais également par des variations dans le contenu non codant et la présence d'introns.
 
@@ -69,13 +69,13 @@ Maintenant que nous avons vu de quelle manière sont répartis les gènes, il es
 
 ![gene_correspondance](.\figures\gene_correspondance.png)
 
-Les deux espèces de levures ont donc sept gènes en commun, participant tous la respiration mitochondriale. Bien que cela ne soit pas visible au premier coup d'oeil, *S. pombe* et *S. cerevisiae* partagent également un huitième gène commun, le *CytochrOme B*, jouant lui aussi un rôle dans la respiration mitochondriale. Celui-ci apparait sous le nom de *cob*, avec un intron (*cob-I1*), pour *S. pombe* et sous le nom de *cytb* chez *S. cerevisiae*. La séquence de *S. pombe* a également été annotée comme possédant deux autres introns, liés au gène *cox1* cette fois-ci. Pour rappel, les séquences n'ayant pas été validées par les experts du NCBI, il est possible, bien qu'incertain, qu'il manque des introns dans l'une ou l'autre des espèces. Ces différences reflètent tout de même des évolutions propres à chaque lignée mitochondriale et soulignent des variations potentielles dans la complexité de l’expression de leurs ARN.
+Les deux espèces de levures ont donc sept gènes en commun, participant presque tous à la respiration mitochondriale. Bien que cela ne soit pas visible au premier coup d'oeil, *S. pombe* et *S. cerevisiae* partagent également un huitième gène commun, le *CytochrOme B*, jouant lui aussi un rôle dans la respiration mitochondriale. Celui-ci apparait sous le nom de *cob*, avec un intron (*cob-I1*), pour *S. pombe* et sous le nom de *cytb* chez *S. cerevisiae*. La séquence de *S. pombe* a également été annotée comme possédant deux autres introns, liés au gène *cox1* cette fois-ci. Pour rappel, les séquences n'ayant pas été validées par les experts du NCBI, il est possible, bien qu'incertain, qu'il manque des introns dans l'une ou l'autre des espèces. Ces différences reflètent tout de même des évolutions propres à chaque lignée mitochondriale et soulignent des variations potentielles dans la complexité de l’expression de leurs ARN.
 
 Afin de savoir si ces gènes sont potentiellement identiques, il est utile de comparer leurs tailles respectives. Une première étape a été d'analyser ces CDS mitochondriaux en termes de longueur, bien que ces données soient peu pertinentes pour identifier des gènes homologues. Ces statistiques montrent une plus grande variation dans les tailles de CDS chez *S. pombe* ainsi que des valeurs globalement plus hautes pour la médiane et la moyenne. Ces différences sont principalement dues à la présence d'introns chez *S. pombe*. Pour pouvoir mieux visualiser la distribution des tailles des CDS, un graphique a été produit, avec l'ensemble des gènes des deux espèces, ordonnés en fonction de leur taille en paires de bases.
 
 ![plot_length_cds](.\figures\plot_length_cds.png)
 
-Il est facilement visible que certains de ces gènes homologues ont la même taille et possèdent donc des séquences potentiellement identiques. D'autres gènes au contraire ont des tailles différentes, variant de quelques codons voir même passant presque du simple au double comme c'est le cas pour *rsp3* (684pb pour *S. pombe* contre 1164pb pour *S. cerevisiae*). Il y a donc sans doute eu des insertions ou des délétions dans ces gènes, impactant ainsi potentiellement leurs structures. D’autres statistiques pourraient enrichir l’analyse, notamment l'alignement des séquences ou le contenu en GC par CDS. Ces gènes étant comparés de manière plus poussée dans la section dédiée à la comparaison des protéines mitochondriales homologues, ces analyses ne seront pas présentées dans la présente section.
+Il est facilement visible que certains de ces gènes homologues ont la même taille et possèdent donc des séquences potentiellement identiques. D'autres gènes au contraire ont des tailles différentes, variant de quelques codons voir même passant presque du simple au double comme c'est le cas pour *rsp3* (684pb pour *S. pombe* contre 1164pb pour *S. cerevisiae*). Il y a donc sans doute eu des insertions ou des délétions dans ces gènes, impactant ainsi potentiellement leurs structures. D’autres statistiques pourraient enrichir l’analyse, notamment l'alignement des séquences ou le contenu en GC par CDS. Ces gènes étant comparés de manière plus poussée dans la section dédiée à la comparaison des protéines mitochondriales homologues, ces analyses ne seront pas présentées dans la présente section. Des analyses similaires auraient pu être effectuées pour les différents ARN, mais les annotations de ceux-ci rendent cela difficile.
 
 Cette analyse statistique met en évidence des différences nettes entre les génomes mitochondriaux de *S. cerevisiae* et *S. pombe*, tant au niveau de leur taille, de leur composition en bases, que de leur organisation interne. *S. pombe* présente un génome plus court, mais beaucoup plus dense, avec une organisation compacte et optimisée des gènes, tandis que *S. cerevisiae* présente une structure plus vaste, riche en régions non codantes. Ces résultats suggèrent des stratégies évolutives divergentes, l’une orientée vers la compaction génomique, l’autre vers une tolérance accrue à la redondance et potentiellement à la complexité transcriptionnelle. Ces observations forment une base pour les analyses fonctionnelles et comparatives qui suivent.
 
@@ -94,7 +94,7 @@ Dans notre cas, il s'agira d'analyser les voies métaboliques permettant de dig�
 
 On distingue deux modes de métabolismes chez les levures :  le métabolisme en aérobie et le métabolisme en anaérobie. Lorsque les levures disposent de glucose et d'oxygène, elles produisent du Co2. C'est le métabolisme en aérobie. Au contraire, dans le métabolisme en anaérobie, les levures disposent de glucose, mais pas d'oxygène. Elles produisent alors du Co2 et de l'éthanol. C'est pour cette raison que la fermentation dans le but de créer des boissons alcoolisées se fait généralement dans des récipients fermés (également pour éviter les contaminations).
 
-Sous certaines conditions, les levures peuvent métaboliser le sucre de manière anaérobique même en présence d'oxygène. Cet effet est connu sous le nom d'effet "***Crabtree***". Lorsque l'organisme se trouve dans un environnement avec une forte teneur en glucose, la respiration (métabolisation aérobique) serait inhibée et la fermentation (anaérobie) prendra le dessus.
+Sous certaines conditions, les levures peuvent métaboliser le sucre de manière anaérobique même en présence d'oxygène. Cet effet est connu sous le nom d'effet "*Crabtree*". Lorsque l'organisme se trouve dans un environnement avec une forte teneur en glucose, la respiration (métabolisation aérobique) serait inhibée et la fermentation (anaérobie) prendra le dessus.
 
 ### Voies métaboliques de digestion du glucose
 
@@ -122,9 +122,9 @@ En présence d'oxygène, 3 voies métaboliques supplémentaires doivent être tr
 
 ![gene_correspondance](.\figures\gene_correspondance.png)
 
-Les gènes atp6, atp8, atp9, cox1, cox2, cox3, rps3 sont communs aux deux espèces et sont relatifs à la dernière voie métabolique de digestion du glucose: la phosphorylation oxydative. C'est cette dernière réaction qui permet de convertir le NADH en ATP.
+Les gènes atp6, atp8, atp9, cox1, cox2, cox3 sont communs aux deux espèces et sont relatifs à la dernière voie métabolique de digestion du glucose: la phosphorylation oxydative. C'est cette dernière réaction qui permet de convertir le NADH en ATP. Le dernier gène commun, rps3, est nécessaire pour la synthèse des protéines.
 
-Les gènes CYTB et COB respectivement spécifiques à S. Cerevisiae et S. Pombe servent tous deux à coder la protéine *apocytochrome b* qui un rôle important dans la respiration.
+Les gènes cytb et cob, respectivement spécifiques à *S. cerevisiae* et *S. pombe*, servent tous deux à coder la protéine *cytochrome b*, ayant un rôle important dans la respiration.
 
 Les séquences cob-I1, cox1-I1b et cox1-I2b ne sont pas de vrais gènes : ce sont des introns mobiles. On peut les considérer comme étant « éléments génétiques égoïstes ». Ce sont des petits « parasites » moléculaires qui s'insèrent dans l'ADN et qui se répliquent. Ils ne codent aucune partie de la protéine finale. Toutefois, tant qu’ils s’autoépissent correctement, ils n’entravent pas la production des protéines Cob ou Cox1 et restent donc globalement neutres pour la cellule.
 
@@ -138,7 +138,7 @@ Pour cela, nous utilisons l’outil EMBOSS Needle, qui permet d’aligner deux s
 
 Nous avons sélectionné sept protéines présentes dans les deux espèces : atp6, atp8, atp9, cox1, cox2, cox3 et rps3. Les six premières participent à la respiration cellulaire, c’est-à-dire à la fabrication d’ATP, la molécule qui fournit de l’énergie à la cellule. Rps3 joue un rôle dans la fabrication des protéines à l’intérieur de la mitochondrie. En comparant ces protéines, nous cherchons à mieux comprendre leur conservation et leur importance pour le fonctionnement de la cellule.
 
-Nous avons également comparé la fonction de chaque protéine, en nous appuyant sur les descriptions fournies par UniProt, une base de données de référence en biologie moléculaire. Pour cela, nous avons utilisé ChatGPT afin d’évaluer si les fonctions annotées étaient similaires entre S. pombe et S. cerevisiae. Enfin, nous avons analysé la structure 3D de chaque protéine pour les deux espèces, afin de vérifier si leur forme était conservée. Cela nous permet de déterminer si, malgré les différences de séquence, ces protéines ont évolué de manière similaire, en conservant une structure et une fonction comparables.
+Nous avons également comparé la fonction de chaque protéine, en nous appuyant sur les descriptions fournies par UniProt, une base de données de référence en biologie moléculaire. Pour cela, nous avons utilisé ChatGPT afin d’évaluer si les fonctions annotées étaient similaires entre *S. pombe* et *S. cerevisiae*. Enfin, nous avons analysé la structure 3D de chaque protéine pour les deux espèces, afin de vérifier si leur forme était conservée. Cela nous permet de déterminer si, malgré les différences de séquence, ces protéines ont évolué de manière similaire, en conservant une structure et une fonction comparables.
 
 <div style="page-break-after: always; break-after: page;"></div>
 
@@ -402,7 +402,7 @@ Rps3 est une protéine ribosomique faisant partie de la petite sous-unité 40S d
 * La réparation de l’ADN (activité endonucléase)  
 * Certaines fonctions extraribosomiques (apoptose, export ribosomique, stress cellulaire)  
 
-Les descriptions de fonction sont identiques, mais l’étendue fonctionnelle de Rps3 dépasse largement le simple rôle structural.
+Les descriptions de fonction sont identiques, mais l’étendue fonctionnelle de rps3 dépasse largement le simple rôle structural.
 
 #### 3. Comparaison de la structure 3D
 
