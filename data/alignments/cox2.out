@@ -1,0 +1,65 @@
+########################################
+# Program: needle
+# Rundate: Fri  6 Jun 2025 20:32:43
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20250606-203237-0052-12828868-p1m.asequence
+#    -bsequence emboss_needle-I20250606-203237-0052-12828868-p1m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Schizosaccharomyces
+# 2: Saccharomyces
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 254
+# Identity:     129/254 (50.8%)
+# Similarity:   176/254 (69.3%)
+# Gaps:           9/254 ( 3.5%)
+# Score: 713.0
+# 
+#
+#=======================================
+
+Schizosacchar      1 ------MLFFNSILNDAPSSWALYFQDGASPSYLGITHLNDYLMFYLTFI     44
+                           :.....|:||.|:.:|.||||.|:|:..||..|:|.:|||| .:
+Saccharomyces      1 MLDLLRLQLTTFIMNDVPTPYACYFQDSATPNQEGILELHDNIMFYL-LV     49
+
+Schizosacchar     45 FIGVIYAICKAVIEYNYNSHPIAAKYTTHGSIVEFIWTLIPALILILVAL     94
+                     .:|::..:...:: ..|:.:|||.||..||..:|.|||:.||:||:::|.
+Saccharomyces     50 ILGLVSWMLYTIV-MTYSKNPIAYKYIKHGQTIEVIWTIFPAVILLIIAF     98
+
+Schizosacchar     95 PSFKLLYLLDEVQKPSMTVKAIGRQWFWSYELNDFVTNENEPVSFDSYMV    144
+                     |||.||||.|||..|:||:||||.||:|.||.:||:.:..|.|.|:||::
+Saccharomyces     99 PSFILLYLCDEVISPAMTIKAIGYQWYWKYEYSDFINDSGETVEFESYVI    148
+
+Schizosacchar    145 PEEDLEEGSLRQLEVDNRLVLPIDTRIRLILTSGDVIHSWAVPSLGIKCD    194
+                     |:|.||||.||.|:.|..:|:|:||.||.::|:.||||.:|:||||||.|
+Saccharomyces    149 PDELLEEGQLRLLDTDTSMVVPVDTHIRFVVTAADVIHDFAIPSLGIKVD    198
+
+Schizosacchar    195 CIPGRLNQVSLSIDREGLFYGQCSELCGVLHSSMPIVVQGVSLEDFLAWL    244
+                     ..||||||||..|.|||:||||||||||..|::|||.::.|||..||.||
+Saccharomyces    199 ATPGRLNQVSALIQREGVFYGQCSELCGTGHANMPIKIEAVSLPKFLEWL    248
+
+Schizosacchar    245 EENS    248
+                     .|. 
+Saccharomyces    249 NEQ-    251
+
+
+#---------------------------------------
+#---------------------------------------

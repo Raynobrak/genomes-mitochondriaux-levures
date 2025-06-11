@@ -1,0 +1,77 @@
+########################################
+# Program: needle
+# Rundate: Fri  6 Jun 2025 20:52:50
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20250606-205243-0365-40773805-p1m.asequence
+#    -bsequence emboss_needle-I20250606-205243-0365-40773805-p1m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Schizosaccharomyces
+# 2: Saccharomyces
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 406
+# Identity:      71/406 (17.5%)
+# Similarity:   117/406 (28.8%)
+# Gaps:         198/406 (48.8%)
+# Score: 108.5
+# 
+#
+#=======================================
+
+Schizosacchar      1 MKLKLLNMILSMMNKTNNNNNIIINNTLDSLMNKKLLLKNMLLDMNNKKM     50
+                                                                       
+Saccharomyces      1 --------------------------------------------------      0
+
+Schizosacchar     51 NNMKRMLNNNNMNINNKLQHLNNMNNWNTQI-----YNYNKNMEIMNTMN     95
+                                       ...||:.|..|.|     :|...|..|     
+Saccharomyces      1 ------------------MQKNNLKNLITTIVTNAFFNQKANFSI-----     27
+
+Schizosacchar     96 DKLINKLLYKMMTLKLNNMNINKIIMSKTINQHSLNKLNIKFYYYNNDIN    145
+                      .|...:..|..::.:.|:|||       ....||  :.:.|.||  .:.
+Saccharomyces     28 -PLKGVIGEKRPSILIGNININ-------FKSDSL--IEVSFPYY--PLL     65
+
+Schizosacchar    146 NNNNNNNNNYYMNMMNKLMNIMNNNMNNNLCNILSY---YYNKKVTIEPI    192
+                     |.|..|            .:|::|.:...|.|.|.|   .|:..|.|..:
+Saccharomyces     66 NKNYPN------------PSIISNIIQKALSNHLLYSSKNYSFIVNIRAL    103
+
+Schizosacchar    193 KLSYIYLNSDIFSKYIS--LNDMDKYNNGILTNYQRMLNNIMPKLNDHNI    240
+                     .:|..|.:|.||||||:  :....|..:.:..:.:|.:|  :|||...:|
+Saccharomyces    104 PISTPYGSSLIFSKYIAIIIGSNPKIASTLWIDPKRFIN--LPKLQSDSI    151
+
+Schizosacchar    241 SMNYINNINNINNNKYNNMINLLNNNNNINNYNNYNNYNNNNNNNNYIGN    290
+                     .     .|..:|..|....|::..|                         
+Saccharomyces    152 F-----KILGLNVPKGWKGIHISLN-------------------------    171
+
+Schizosacchar    291 INNIYNNMTIDNIPMDILMYKYLVGW-SIKFKGRLSNNNGRTSTTNLLNG    339
+                                           |:.| |:..:||:         ||::.|
+Saccharomyces    172 ----------------------LIKWNSLSSRGRI---------TNIIKG    190
+
+Schizosacchar    340 TFNNKKYLWSNINNNYKLNYIP--SNHNLYNNSNI---NKNGKYNIKVKL    384
+                     :                   :|  :|.|.|:.|::   :|.|...|||:|
+Saccharomyces    191 S-------------------VPLTNNSNGYDESSLAIYSKMGTIQIKVRL    221
+
+Schizosacchar    385 NFI---    387
+                     ::.   
+Saccharomyces    222 SYSSNL    227
+
+
+#---------------------------------------
+#---------------------------------------

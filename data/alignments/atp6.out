@@ -1,0 +1,65 @@
+########################################
+# Program: needle
+# Rundate: Fri  6 Jun 2025 20:06:15
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20250606-200607-0819-48871502-p1m.asequence
+#    -bsequence emboss_needle-I20250606-200607-0819-48871502-p1m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Schizosaccharomyces
+# 2: Saccharomyces
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 271
+# Identity:     119/271 (43.9%)
+# Similarity:   171/271 (63.1%)
+# Gaps:          26/271 ( 9.6%)
+# Score: 571.5
+# 
+#
+#=======================================
+
+Schizosacchar      1 ------MFITSPLEQFELNNYFGFYLFNYHFDFS-----NFGFYLGLSAL     39
+                           .:|||||:|||:...||  |.:...|.|     .|..|..:..|
+Saccharomyces      1 MFNLLNTYITSPLDQFEIRTLFG--LQSSFIDLSCLNLTTFSLYTIIVLL     48
+
+Schizosacchar     40 IAISLAIINLTPYGSGAKIVPQKFGIAMEAIYFTMLNLVENQIHSSKTVS     89
+                     :..||    .|...:..||:..::.|:.||||.|::|:.:.||      .
+Saccharomyces     49 VITSL----YTLTNNNNKIIGSRWLISQEAIYDTIMNMTKGQI------G     88
+
+Schizosacchar     90 GQS---YFPFIWSLFVLILFSNFLGLIPYGYATTAQLIFTLGLSISILIG    136
+                     |::   |||.|::||:.|..:|.:.:|||.:|.:|.|:|.:.|||.|.:|
+Saccharomyces     89 GKNWGLYFPMIFTLFMFIFIANLISMIPYSFALSAHLVFIISLSIVIWLG    138
+
+Schizosacchar    137 ATILGLQQHKAKFFGLFLPSGTPTPLIPLLVLIEFVSYIARGLSLGIRLG    186
+                     .|||||.:|...||.||:|:|||.||:||||:||.:||.||.:|||:|||
+Saccharomyces    139 NTILGLYKHGWVFFSLFVPAGTPLPLVPLLVIIETLSYFARAISLGLRLG    188
+
+Schizosacchar    187 ANIIAGHLTMSILGGLIFTFMGLNLITFIIGFLPITVLVAISLLEFGIAF    236
+                     :||:||||.|.||.||.|.||.:||.|.:.||:|:.:::||.:|||.|..
+Saccharomyces    189 SNILAGHLLMVILAGLTFNFMLINLFTLVFGFVPLAMILAIMILEFAIGI    238
+
+Schizosacchar    237 IQAYVFAILTCGFINDSLNLH    257
+                     ||:||:.|||..::.|::.||
+Saccharomyces    239 IQSYVWTILTASYLKDAVYLH    259
+
+
+#---------------------------------------
+#---------------------------------------
