@@ -41,7 +41,7 @@ Les séquences complètes des génomes mitochondriaux ont été récupérées de
 - *S. cerevisiae* : [NC_027264](https://www.ncbi.nlm.nih.gov/nuccore/NC_027264.1)
 - *S. pombe* : [NC_088682](https://www.ncbi.nlm.nih.gov/nuccore/NC_088682.1/)
 
-Bien que les séquences soient complètes, elles sont marquées comme "provisional RefSeq" (en date du 09.06.2025), ce qui signifie qu'elles n'ont encore été relues et validées manuellement pas les experts du NCBI. Cela n'affecte pas la qualité de la séquence elle-même, qui est généralement fiable et issue d’une soumission contrôlée, mais cela peut avoir un impact sur l'exactitude ou l'exhaustivité des annotations (comme la position exacte des gènes, la présence d'introns ou de séquences non codantes).
+Bien que les séquences soient complètes, elles sont marquées comme "provisional RefSeq" (en date du 09.06.2025), ce qui signifie qu'elles n'ont pas encore été relues et validées manuellement par les experts du NCBI. Cela n'affecte pas la qualité de la séquence elle-même, qui est généralement fiable et issue d’une soumission contrôlée, mais cela peut avoir un impact sur l'exactitude ou l'exhaustivité des annotations (comme la position exacte des gènes, la présence d'introns ou de séquences non codantes).
 
 Ces données vont permettre une série d'analyses statistiques, après extraction des gènes codants et de leurs annotations, ainsi que poser des bases pour des analyses de protéines et métaboliques.
 
